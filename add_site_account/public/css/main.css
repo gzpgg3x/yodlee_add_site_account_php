@@ -1,0 +1,177 @@
+.body{
+	overflow: hidden;
+}
+
+.container-body, .container-footer {
+	padding: 15px;
+}
+
+.m-top-5 {
+	margin-top: 5px;
+}
+
+.m-top-15 {
+	margin-top: 15px;
+}
+
+.w-250 {
+	width: 250px;
+}
+
+.c-gray{
+	color: #808080;
+}
+
+.w-500 {
+	width:500px;
+}
+
+.m-bottom-10 {
+	margin-bottom: 10px;
+}
+
+.m-bottom-15 {
+	margin-bottom: 15px;
+}
+
+.v-align-top{
+	vertical-align: top;
+}
+
+.c-red-bold{
+	color:red;
+	font-weight: bold;
+}
+
+.c-black-bold{
+	color:black;
+	font-weight: bold;
+}
+
+.default-panel{
+	color: #A36C25;
+	background-color: #EEE;
+	border-color: #EED3D7;
+	padding: 10px;
+}
+
+table.container-table-custom .header{
+	background: #006B8B; 
+	color:white;
+}
+
+table.container-table-custom tr.foot td{
+	text-align: right;
+	padding: 0 10px 0 0;
+}
+
+.container-panel-info {
+	padding: 9.5px;
+	margin: 0 0 10px;
+	background-color: #F5F5F5;
+	border: 1px solid #CCC;
+	border-radius: 4px;
+}
+
+.body-log{
+	width: 90%;
+	min-width: 90%;
+	height: 80px;
+	border: 1px solid #ECECEC;
+	font-size: 12px;
+	padding: 5px;
+	overflow: hidden;
+}
+
+.body-log  .request, 
+.body-log  .response{
+	width: 260px;
+	height: 80px;
+	overflow: hidden;
+}
+
+.log-request, .log-response{
+	width: 50%;
+}
+
+
+.timer{
+	font-size: 11px;
+	font-style: italic;
+}
+
+.s-title-log {
+	vertical-align: middle;
+	margin: 5px 0 0;
+}
+
+.p-left-15 {
+	padding-left: 15px;
+}
+
+.font-size-10{
+	font-size: 13px;
+}
+
+.yodlee.modal{
+	width: 900px;
+	margin-left: -450px;
+}
+
+.c-blue {
+	color:#08C;
+}
+
+.no-margin-left{
+	margin-left: 0px;
+}
+
+.request-expanded, .response-expanded{
+	margin: 0px;
+	padding: 0px;
+}
+
+.yodlee.modal.fade.in {
+top: 5%;
+}
+
+.container-body .flow-column-left, 
+.container-body .flow-column-right{
+	overflow-y: scroll;
+	width: 45%;
+	height: 500px;
+	padding: 0 15px;
+}
+
+.mask .modal-backdrop {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1040;
+	background-color: #414141;
+}
+
+.mask .modal {
+	position: fixed;
+	top: 10%;
+	left: 50%;
+	z-index: 1050;
+	width: auto;
+	margin-left: -75px;
+	background-color: transparent;
+	border: none;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	outline: 0;
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	box-shadow: none !important;
+	-webkit-background-clip: padding-box;
+	-moz-background-clip: padding-box;
+	background-clip: padding-box;
+	background: white;
+	padding: 10px;
+}
